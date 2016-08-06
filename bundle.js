@@ -46,9 +46,8 @@
 
 	var funcs = __webpack_require__(1);
 	console.log(funcs);
-
-	funcs.kitty()
-	funcs.puppy()
+	funcs.cat();
+	funcs.dog();
 
 
 /***/ },
@@ -63,7 +62,7 @@
 		document.write("PUPPY!");
 	}
 
-	module.exports = {"puppy": puppy, "kitty": kitty}
+	module.exports = {"dog": puppy, "cat": kitty}
 
 
 /***/ }

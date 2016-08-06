@@ -6,4 +6,4 @@ function puppy() {
 	document.write("PUPPY!");
 }
 
-module.exports = {"puppy": puppy, "kitty": kitty}
+module.exports = {"dog": puppy, "cat": kitty}
